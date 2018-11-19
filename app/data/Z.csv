@@ -1,0 +1,21 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+80,J12,BMT,Jamaica,121 St,Q,J Z,Elevated,40.700492,-73.828294
+82,J14,BMT,Jamaica,104 St,Q,J Z,Elevated,40.695178,-73.84433
+83,J15,BMT,Jamaica,Woodhaven Blvd,Q,J Z,Elevated,40.693879,-73.851576
+85,J17,BMT,Jamaica,75 St,Q,J Z,Elevated,40.691324,-73.867139
+87,J20,BMT,Jamaica,Crescent St,Bk,J Z,Elevated,40.683194,-73.873785
+88,J21,BMT,Jamaica,Norwood Av,Bk,J Z,Elevated,40.68141,-73.880039
+90,J23,BMT,Jamaica,Van Siclen Av,Bk,J Z,Elevated,40.678024,-73.891688
+621,J27,BMT,Jamaica,Broadway Jct,Bk,J Z,Elevated,40.679498,-73.904512
+93,J28,BMT,Jamaica,Chauncey St,Bk,J Z,Elevated,40.682893,-73.910456
+95,J30,BMT,Jamaica,Gates Av,Bk,J Z,Elevated,40.68963,-73.92227
+97,M11,BMT,Jamaica,Myrtle Av,Bk,J M Z,Elevated,40.697207,-73.935657
+101,M16,BMT,Jamaica,Marcy Av,Bk,J M Z,Elevated,40.708359,-73.957757
+625,M18,BMT,Jamaica,Essex St,M,J M Z,Subway,40.718315,-73.987437
+103,M19,BMT,Jamaica,Bowery,M,J Z,Subway,40.72028,-73.993915
+623,M20,BMT,Jamaica,Canal St,M,J Z,Subway,40.718092,-73.999892
+622,M21,BMT,Jamaica,Chambers St,M,J Z,Subway,40.713243,-74.003401
+628,M22,BMT,Jamaica,Fulton St,M,J Z,Subway,40.710374,-74.007582
+107,M23,BMT,Jamaica,Broad St,M,J Z,Subway,40.706476,-74.011056
+278,G05,IND,Queens - Archer,Jamaica Center - Parsons/Archer,Q,E J Z,Subway,40.702147,-73.801109
+279,G06,IND,Queens - Archer,Sutphin Blvd - Archer Av - JFK Airport,Q,E J Z,Subway,40.700486,-73.807969

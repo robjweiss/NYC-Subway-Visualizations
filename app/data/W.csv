@@ -1,0 +1,24 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+1,R01,BMT,Astoria,Astoria - Ditmars Blvd,Q,N W,Elevated,40.775036,-73.912034
+2,R03,BMT,Astoria,Astoria Blvd,Q,N W,Elevated,40.770258,-73.917843
+3,R04,BMT,Astoria,30 Av,Q,N W,Elevated,40.766779,-73.921479
+4,R05,BMT,Astoria,Broadway,Q,N W,Elevated,40.76182,-73.925508
+5,R06,BMT,Astoria,36 Av,Q,N W,Elevated,40.756804,-73.929575
+6,R08,BMT,Astoria,39 Av,Q,N W,Elevated,40.752882,-73.932755
+613,R11,BMT,Astoria,Lexington Av/59 St,M,N W R,Subway,40.76266,-73.967258
+8,R13,BMT,Astoria,5 Av/59 St,M,N W R,Subway,40.764811,-73.973347
+9,R14,BMT,Broadway - Brighton,57 St - 7 Av,M,N Q R W,Subway,40.764664,-73.980658
+10,R15,BMT,Broadway - Brighton,49 St,M,N R W,Subway,40.759901,-73.984139
+611,R16,BMT,Broadway - Brighton,Times Sq - 42 St,M,N Q R W,Subway,40.754672,-73.986754
+607,R17,BMT,Broadway - Brighton,34 St - Herald Sq,M,N Q R W,Subway,40.749567,-73.98795
+13,R18,BMT,Broadway - Brighton,28 St,M,R W,Subway,40.745494,-73.988691
+14,R19,BMT,Broadway - Brighton,23 St,M,R W,Subway,40.741303,-73.989344
+602,R20,BMT,Broadway - Brighton,14 St - Union Sq,M,N Q R W,Subway,40.735736,-73.990568
+16,R21,BMT,Broadway - Brighton,8 St - NYU,M,R W,Subway,40.730328,-73.992629
+17,R22,BMT,Broadway - Brighton,Prince St,M,R W,Subway,40.724329,-73.997702
+623,R23,BMT,Broadway,Canal St,M,R W,Subway,40.719527,-74.001775
+20,R24,BMT,Broadway,City Hall,M,R W,Subway,40.713282,-74.006978
+21,R25,BMT,Broadway,Cortlandt St,M,R W,Subway,40.710668,-74.011029
+22,R26,BMT,Broadway,Rector St,M,R W,Subway,40.70722,-74.013342
+635,R27,BMT,Broadway,Whitehall St,M,R W,Subway,40.703087,-74.012994
+461,R09,BMT,Astoria,Queensboro Plaza,Q,N W,Elevated,40.750582,-73.940202

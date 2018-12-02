@@ -1,0 +1,22 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+501,S31,SIR,Staten Island,St George,SI,SIR,Open Cut,40.643748,-74.073643
+502,S30,SIR,Staten Island,Tompkinsville,SI,SIR,At Grade,40.636949,-74.074835
+503,S29,SIR,Staten Island,Stapleton,SI,SIR,Elevated,40.627915,-74.075162
+504,S28,SIR,Staten Island,Clifton,SI,SIR,Elevated,40.621319,-74.071402
+505,S27,SIR,Staten Island,Grasmere,SI,SIR,Open Cut,40.603117,-74.084087
+506,S26,SIR,Staten Island,Old Town,SI,SIR,Embankment,40.596612,-74.087368
+507,S25,SIR,Staten Island,Dongan Hills,SI,SIR,Embankment,40.588849,-74.09609
+508,S24,SIR,Staten Island,Jefferson Av,SI,SIR,Embankment,40.583591,-74.103338
+509,S23,SIR,Staten Island,Grant City,SI,SIR,Open Cut,40.578965,-74.109704
+510,S22,SIR,Staten Island,New Dorp,SI,SIR,Open Cut,40.57348,-74.11721
+511,S21,SIR,Staten Island,Oakwood Heights,SI,SIR,Open Cut,40.56511,-74.12632
+512,S20,SIR,Staten Island,Bay Terrace,SI,SIR,Embankment,40.5564,-74.136907
+513,S19,SIR,Staten Island,Great Kills,SI,SIR,Open Cut,40.551231,-74.151399
+514,S18,SIR,Staten Island,Eltingville,SI,SIR,Embankment,40.544601,-74.16457
+515,S17,SIR,Staten Island,Annadale,SI,SIR,Open Cut,40.54046,-74.178217
+516,S16,SIR,Staten Island,Huguenot,SI,SIR,Open Cut,40.533674,-74.191794
+517,S15,SIR,Staten Island,Prince's Bay,SI,SIR,Open Cut,40.525507,-74.200064
+518,S14,SIR,Staten Island,Pleasant Plains,SI,SIR,Embankment,40.52241,-74.217847
+519,S13,SIR,Staten Island,Richmond Valley,SI,SIR,Open Cut,40.519631,-74.229141
+522,S09,SIR,Staten Island,Tottenville,SI,SIR,At Grade,40.512764,-74.251961
+523,S11,SIR,Staten Island,Arthur Kill,SI,SIR,At Grade,40.516578,-74.242096

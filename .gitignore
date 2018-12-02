@@ -105,3 +105,6 @@ venv.bak/
 
 # windows
 .cmd
+
+# MTA api key
+api_key.py

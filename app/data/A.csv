@@ -1,0 +1,46 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+143,A02,IND,8th Av - Fulton St,Inwood - 207 St,M,A,Subway,40.868072,-73.919899
+144,A03,IND,8th Av - Fulton St,Dyckman St,M,A,Subway,40.865491,-73.927271
+145,A05,IND,8th Av - Fulton St,190 St,M,A,Subway,40.859022,-73.93418
+146,A06,IND,8th Av - Fulton St,181 St,M,A,Subway,40.851695,-73.937969
+147,A07,IND,8th Av - Fulton St,175 St,M,A,Subway,40.847391,-73.939704
+605,A09,IND,8th Av - Fulton St,168 St,M,A C,Subway,40.840719,-73.939561
+151,A12,IND,8th Av - Fulton St,145 St,M,A C,Subway,40.824783,-73.944216
+153,A15,IND,8th Av - Fulton St,125 St,M,A B C D,Subway,40.811109,-73.952343
+614,A24,IND,8th Av - Fulton St,59 St - Columbus Circle,M,A B C D,Subway,40.768296,-73.981736
+611,A27,IND,8th Av - Fulton St,42 St - Port Authority Bus Terminal,M,A C E,Subway,40.757308,-73.989735
+164,A28,IND,8th Av - Fulton St,34 St - Penn Station,M,A C E,Subway,40.752287,-73.993391
+618,A31,IND,8th Av - Fulton St,14 St,M,A C E,Subway,40.740893,-74.00169
+167,A32,IND,8th Av - Fulton St,W 4 St,M,A C E,Subway,40.732338,-74.000495
+169,A34,IND,8th Av - Fulton St,Canal St,M,A C E,Subway,40.720824,-74.005229
+624,A36,IND,8th Av - Fulton St,Chambers St,M,A C,Subway,40.714111,-74.008585
+628,A38,IND,8th Av - Fulton St,Fulton St,M,A C,Subway,40.710197,-74.007691
+173,A40,IND,8th Av - Fulton St,High St,Bk,A C,Subway,40.699337,-73.990531
+636,A41,IND,8th Av - Fulton St,Jay St - MetroTech,Bk,A C F,Subway,40.692338,-73.987342
+175,A42,IND,8th Av - Fulton St,Hoyt - Schermerhorn Sts,Bk,A C G,Subway,40.688484,-73.985001
+179,A46,IND,8th Av - Fulton St,Nostrand Av,Bk,A C,Subway,40.680438,-73.950426
+181,A48,IND,8th Av - Fulton St,Utica Av,Bk,A C,Subway,40.679364,-73.930729
+621,A51,IND,8th Av - Fulton St,Broadway Jct,Bk,A C,Subway,40.678334,-73.905316
+188,A55,IND,8th Av - Fulton St,Euclid Av,Bk,A C,Subway,40.675377,-73.872106
+189,A57,IND,Liberty Av,Grant Av,Bk,A,Subway,40.677044,-73.86505
+190,A59,IND,Liberty Av,80 St,Q,A,Elevated,40.679371,-73.858992
+191,A60,IND,Liberty Av,88 St,Q,A,Elevated,40.679843,-73.85147
+192,A61,IND,Liberty Av,Rockaway Blvd,Q,A,Elevated,40.680429,-73.843853
+193,A63,IND,Liberty Av,104 St,Q,A,Elevated,40.681711,-73.837683
+194,A64,IND,Liberty Av,111 St,Q,A,Elevated,40.684331,-73.832163
+195,A65,IND,Liberty Av,Ozone Park - Lefferts Blvd,Q,A,Elevated,40.685951,-73.825798
+196,H01,IND,Rockaway,Aqueduct Racetrack,Q,A,At Grade,40.672097,-73.835919
+197,H02,IND,Rockaway,Aqueduct - N Conduit Av,Q,A,At Grade,40.668234,-73.834058
+198,H03,IND,Rockaway,Howard Beach - JFK Airport,Q,A,At Grade,40.660476,-73.830301
+199,H04,IND,Rockaway,Broad Channel,Q,A S,At Grade,40.608382,-73.815925
+199,H19,IND,Rockaway,Broad Channel,Q,A S,At Grade,40.608382,-73.815925
+200,H12,IND,Rockaway,Beach 90 St,Q,A S,Viaduct,40.588034,-73.813641
+201,H13,IND,Rockaway,Beach 98 St,Q,A S,Viaduct,40.585307,-73.820558
+202,H14,IND,Rockaway,Beach 105 St,Q,A S,Viaduct,40.583209,-73.827559
+203,H15,IND,Rockaway,Rockaway Park - Beach 116 St,Q,A S,At Grade,40.580903,-73.835592
+204,H06,IND,Rockaway,Beach 67 St,Q,A,Viaduct,40.590927,-73.796924
+205,H07,IND,Rockaway,Beach 60 St,Q,A,Viaduct,40.592374,-73.788522
+206,H08,IND,Rockaway,Beach 44 St,Q,A,Viaduct,40.592943,-73.776013
+207,H09,IND,Rockaway,Beach 36 St,Q,A,Viaduct,40.595398,-73.768175
+208,H10,IND,Rockaway,Beach 25 St,Q,A,Viaduct,40.600066,-73.761353
+209,H11,IND,Rockaway,Far Rockaway - Mott Av,Q,A,Viaduct,40.603995,-73.755405

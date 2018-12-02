@@ -7,3 +7,5 @@ MarkupSafe==1.0
 protobuf==3.6.1
 six==1.11.0
 Werkzeug==0.14.1
+protobuf3_to_dict==0.1.5
+haversine==2.0.0

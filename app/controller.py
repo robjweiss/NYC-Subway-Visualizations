@@ -57,11 +57,11 @@ for row in info:
 times1 = getTimes(realtime_data, station,dir)
 times2 = getTimes(realtime_data, station2, dir2)
 setTime = times1[0]
-d = haversine(longlat[0], longlat[1], miles=True)
+d = haversine(longlat[0], longlat[1], unit="mi")
 
 for times in times2:
 	t = (times-setTime)/(60**2)
-	if setTime < times and d/t <= 30: 
+	if setTime < times and d/t <= 30:
 		print("You will arrive from your " + time.strftime('%m/%d/%Y %I:%M%p', time.localtime(setTime)) + " train at your destination at: " + time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)))
 		break
 print(str(d) + " miles between stops")

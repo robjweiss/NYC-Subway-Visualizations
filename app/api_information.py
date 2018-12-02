@@ -9,8 +9,8 @@ api_ids[31] = ["G"]
 api_ids[26] = ["J", "Z"]
 api_ids[51] = ["7"]
 
-def find_id(line):
+def find_id(route):
 	for k,v in api_ids.items():
-		if line in v:
+		if route in v:
 			return k
 	return -1

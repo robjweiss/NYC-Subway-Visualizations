@@ -35,7 +35,7 @@ def getTimes(realtime_data,station,dir):
 					#arrivalTime = time.strftime('%m/%d/%Y %I:%M%p', time.localtime(arrivalTime))
 	return arrivalTimes
 
-with open('app/data/' + posted_id + '.csv', newline='') as csvfile:
+with open('data/' + posted_id + '.csv', newline='') as csvfile:
 	info = list(csv.reader(csvfile, delimiter=','))
 base,basecoords = None,None
 stops = []

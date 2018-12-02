@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+160,A22,IND,8th Av - Fulton St,72 St,M,B C,Subway,40.775594,-73.97641
+313,123,IRT,Broadway - 7Av,72 St,M,1 2 3,Subway,40.778453,-73.98197
+477,Q03,IND,Second Av,72 St,M,Q,Subway,40.768799,-73.958424

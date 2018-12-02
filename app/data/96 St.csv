@@ -1,0 +1,5 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+157,A19,IND,8th Av - Fulton St,96 St,M,B C,Subway,40.791642,-73.964696
+310,120,IRT,Broadway - 7Av,96 St,M,1 2 3,Subway,40.793919,-73.972323
+396,625,IRT,Lexington Av,96 St,M,6,Subway,40.785672,-73.95107
+475,Q05,IND,Second Av,96 St,M,Q,Subway,40.784318,-73.947152

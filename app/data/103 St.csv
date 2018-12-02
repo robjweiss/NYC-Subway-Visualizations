@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+156,A18,IND,8th Av - Fulton St,103 St,M,B C,Subway,40.796092,-73.961454
+309,119,IRT,Broadway - 7Av,103 St,M,1,Subway,40.799446,-73.968379
+395,624,IRT,Lexington Av,103 St,M,6,Subway,40.7906,-73.947478

@@ -1,0 +1,6 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+14,R19,BMT,Broadway - Brighton,23 St,M,R W,Subway,40.741303,-73.989344
+165,A30,IND,8th Av - Fulton St,23 St,M,C E,Subway,40.745906,-73.998041
+228,D18,IND,6th Av - Culver,23 St,M,F M,Subway,40.742878,-73.992821
+320,130,IRT,Broadway - 7Av,23 St,M,1,Subway,40.744081,-73.995657
+405,634,IRT,Lexington Av,23 St,M,6,Subway,40.739864,-73.986599

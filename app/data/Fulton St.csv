@@ -1,0 +1,6 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+628,M22,BMT,Jamaica,Fulton St,M,J Z,Subway,40.710374,-74.007582
+628,A38,IND,8th Av - Fulton St,Fulton St,M,A C,Subway,40.710197,-74.007691
+292,G36,IND,Crosstown,Fulton St,Bk,G,Subway,40.687119,-73.975375
+628,229,IRT,Clark St,Fulton St,M,2 3,Subway,40.709416,-74.006571
+628,418,IRT,Lexington Av,Fulton St,M,4 5,Subway,40.710368,-74.009509

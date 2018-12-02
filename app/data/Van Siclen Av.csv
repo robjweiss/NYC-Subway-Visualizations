@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+90,J23,BMT,Jamaica,Van Siclen Av,Bk,J Z,Elevated,40.678024,-73.891688
+186,A53,IND,8th Av - Fulton St,Van Siclen Av,Bk,C,Subway,40.67271,-73.890358
+351,256,IRT,Eastern Pky,Van Siclen Av,Bk,3,Elevated,40.665449,-73.889395

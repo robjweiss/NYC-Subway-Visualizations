@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+41,D25,BMT,Broadway - Brighton,7 Av,Bk,B Q,Subway,40.67705,-73.972367
+240,F24,IND,6th Av - Culver,7 Av,Bk,F G,Subway,40.666271,-73.980305
+277,D14,IND,Queens Blvd,7 Av,M,B D E,Subway,40.762862,-73.981637

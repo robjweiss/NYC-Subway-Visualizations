@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+610,631,IRT,Lexington Av,Grand Central - 42 St,M,4 5 6,Subway,40.751776,-73.976848
+610,723,IRT,Flushing,Grand Central - 42 St,M,7,Subway,40.751431,-73.976041
+610,901,IRT,Lexington - Shuttle,Grand Central - 42 St,M,S,Subway,40.752769,-73.979189

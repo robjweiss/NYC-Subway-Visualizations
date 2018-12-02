@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+44,D28,BMT,Broadway - Brighton,Church Av,Bk,B Q,Open Cut,40.650527,-73.962982
+243,F27,IND,6th Av - Culver,Church Av,Bk,F,Subway,40.644041,-73.979678
+356,244,IRT,Nostrand,Church Av,Bk,2 5,Subway,40.650843,-73.949575

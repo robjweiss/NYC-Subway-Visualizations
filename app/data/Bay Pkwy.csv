@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+68,B21,BMT,West End,Bay Pkwy,Bk,D,Elevated,40.601875,-73.993728
+76,N07,BMT,Sea Beach,Bay Pkwy,Bk,N,Open Cut,40.611815,-73.981848
+247,F32,IND,6th Av - Culver,Bay Pkwy,Bk,F,Elevated,40.620769,-73.975264

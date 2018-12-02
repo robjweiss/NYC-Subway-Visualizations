@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+622,M21,BMT,Jamaica,Chambers St,M,J Z,Subway,40.713243,-74.003401
+624,A36,IND,8th Av - Fulton St,Chambers St,M,A C,Subway,40.714111,-74.008585
+327,137,IRT,Broadway - 7Av,Chambers St,M,1 2 3,Subway,40.715478,-74.009266

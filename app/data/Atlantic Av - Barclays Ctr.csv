@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+617,R31,BMT,4th Av,Atlantic Av - Barclays Ctr,Bk,D N R,Subway,40.683666,-73.97881
+617,D24,BMT,Broadway - Brighton,Atlantic Av - Barclays Ctr,Bk,B Q,Subway,40.68446,-73.97689
+617,235,IRT,Eastern Pky,Atlantic Av - Barclays Ctr,Bk,2 3,Subway,40.684359,-73.977666

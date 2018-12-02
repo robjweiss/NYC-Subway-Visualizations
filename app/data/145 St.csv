@@ -1,0 +1,5 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+151,A12,IND,8th Av - Fulton St,145 St,M,A C,Subway,40.824783,-73.944216
+151,D13,IND,Concourse,145 St,M,B D,Subway,40.824783,-73.944216
+304,114,IRT,Broadway - 7Av,145 St,M,1,Subway,40.826551,-73.95036
+437,302,IRT,Lenox - White Plains Rd,145 St,M,3,Subway,40.820421,-73.936245

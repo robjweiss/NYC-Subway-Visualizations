@@ -1,0 +1,5 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+611,R16,BMT,Broadway - Brighton,Times Sq - 42 St,M,N Q R W,Subway,40.754672,-73.986754
+611,127,IRT,Broadway - 7Av,Times Sq - 42 St,M,1 2 3,Subway,40.75529,-73.987495
+611,725,IRT,Flushing,Times Sq - 42 St,M,7,Subway,40.755477,-73.987691
+611,902,IRT,Lexington - Shuttle,Times Sq - 42 St,M,S,Subway,40.755983,-73.986229

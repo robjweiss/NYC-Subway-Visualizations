@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+154,A16,IND,8th Av - Fulton St,116 St,M,B C,Subway,40.805085,-73.954882
+393,622,IRT,Lexington Av,116 St,M,6,Subway,40.798629,-73.941617
+440,226,IRT,Lenox - White Plains Rd,116 St,M,2 3,Subway,40.802098,-73.949625

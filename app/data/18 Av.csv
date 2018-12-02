@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+66,B19,BMT,West End,18 Av,Bk,D,Elevated,40.607954,-74.001736
+74,N05,BMT,Sea Beach,18 Av,Bk,N,Open Cut,40.620671,-73.990414
+245,F30,IND,6th Av - Culver,18 Av,Bk,F,Elevated,40.629755,-73.976971

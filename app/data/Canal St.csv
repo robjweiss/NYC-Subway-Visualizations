@@ -1,0 +1,7 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+623,R23,BMT,Broadway,Canal St,M,R W,Subway,40.719527,-74.001775
+623,Q01,BMT,Manhattan Bridge,Canal St,M,N Q,Subway,40.718383,-74.00046
+623,M20,BMT,Jamaica,Canal St,M,J Z,Subway,40.718092,-73.999892
+169,A34,IND,8th Av - Fulton St,Canal St,M,A C E,Subway,40.720824,-74.005229
+325,135,IRT,Broadway - 7Av,Canal St,M,1,Subway,40.722854,-74.006277
+623,639,IRT,Lexington Av,Canal St,M,6,Subway,40.718803,-74.000193

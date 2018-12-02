@@ -1,0 +1,7 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+38,R44,BMT,4th Av,86 St,Bk,R,Subway,40.622687,-74.028398
+79,N10,BMT,Sea Beach,86 St,Bk,N,Open Cut,40.592721,-73.97823
+158,A20,IND,8th Av - Fulton St,86 St,M,B C,Subway,40.785868,-73.968916
+311,121,IRT,Broadway - 7Av,86 St,M,1,Subway,40.788644,-73.976218
+397,626,IRT,Lexington Av,86 St,M,4 5 6,Subway,40.779492,-73.955589
+476,Q04,IND,Second Av,86 St,M,Q,Subway,40.777891,-73.951787

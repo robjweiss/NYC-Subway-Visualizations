@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+606,F09,IND,Queens Blvd,Court Sq,Q,E M,Subway,40.747846,-73.946
+606,G22,IND,Crosstown,Court Sq,Q,G,Subway,40.746554,-73.943832
+606,719,IRT,Flushing,Court Sq,Q,7,Elevated,40.747023,-73.945264

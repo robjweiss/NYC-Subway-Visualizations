@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+627,S01,BMT,Franklin Shuttle,Franklin Av,Bk,S,Elevated,40.680596,-73.955827
+627,A45,IND,8th Av - Fulton St,Franklin Av,Bk,C,Subway,40.68138,-73.956848
+626,239,IRT,Eastern Pky,Franklin Av,Bk,2 3 4 5,Subway,40.670682,-73.958131

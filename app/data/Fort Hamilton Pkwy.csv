@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+60,B13,BMT,West End,Fort Hamilton Pkwy,Bk,D,Elevated,40.640914,-73.994304
+72,N03,BMT,Sea Beach,Fort Hamilton Pkwy,Bk,N,Open Cut,40.631386,-74.005351
+242,F26,IND,6th Av - Culver,Fort Hamilton Pkwy,Bk,F G,Subway,40.650782,-73.975776

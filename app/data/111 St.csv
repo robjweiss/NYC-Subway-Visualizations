@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+81,J13,BMT,Jamaica,111 St,Q,J,Elevated,40.697418,-73.836345
+194,A64,IND,Liberty Av,111 St,Q,A,Elevated,40.684331,-73.832163
+449,705,IRT,Flushing,111 St,Q,7,Elevated,40.75173,-73.855334

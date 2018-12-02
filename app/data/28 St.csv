@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+13,R18,BMT,Broadway - Brighton,28 St,M,R W,Subway,40.745494,-73.988691
+319,129,IRT,Broadway - 7Av,28 St,M,1,Subway,40.747215,-73.993365
+404,633,IRT,Lexington Av,28 St,M,6,Subway,40.74307,-73.984264

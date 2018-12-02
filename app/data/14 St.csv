@@ -1,0 +1,4 @@
+Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+618,A31,IND,8th Av - Fulton St,14 St,M,A C E,Subway,40.740893,-74.00169
+601,D19,IND,6th Av - Culver,14 St,M,F M,Subway,40.738228,-73.996209
+601,132,IRT,Broadway - 7Av,14 St,M,1 2 3,Subway,40.737826,-74.000201

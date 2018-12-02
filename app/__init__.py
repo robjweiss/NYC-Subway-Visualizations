@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from config import app_config, Config, DevelopmentConfig
 from urllib.request import urlretrieve
 import csv
+import re
 
 def create_app(config_name):
 	# WSGI application object
@@ -17,14 +18,14 @@ def create_app(config_name):
 		csv_reader = csv.reader(stations, delimiter=',')
 		header = next(csv_reader, None)[1:]
 		for line in csv_reader:
-			routes = line[7].split(" ")
-			for route in routes:
-				if route not in output:
-					output[route] = [[l for l in line[1:]]]
-				else:
-					output[route].append([l for l in line[1:]])
+			route = line[5]
+			if route not in output:
+				output[route] = [[l for l in line[1:]]]
+			else:
+				output[route].append([l for l in line[1:]])
 	for k,v in output.items():
-		with open("app/data/" + k + ".csv", mode="w") as r:
+		k2 = re.sub(r'/', '+', k)
+		with open("app/data/" + k2 + ".csv", mode="w") as r:
 			route_writer = csv.writer(r, delimiter=',', lineterminator='\n')
 			route_writer.writerow(header)
 			for val in v:

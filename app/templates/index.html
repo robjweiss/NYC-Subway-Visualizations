@@ -184,20 +184,24 @@
                   <tbody>
 				  {% for key, value in arrivals.items() %}
 				  {% for train in value[0] %}
+				  {% if loop.index % 2 == 0 %}
                     <tr>
                       <td>{{ key }}</td>
                       <td>{{ train[0] }}</td>
 					  <td>{{ train[1] }}</td>
                       <td>Northbound</td>
                     </tr>
+				  {% endif %}
 				  {% endfor %}
 				  {% for train in value[1] %}
+				  {% if loop.index % 2 == 0 %}
                     <tr>
                       <td>{{ key }}</td>
                       <td>{{ train[0] }}</td>
 					  <td>{{ train[1] }}</td>
                       <td>Southbound</td>
                     </tr>
+				  {% endif %}
 				  {% endfor %}
 				  {% endfor %}
                   </tbody>

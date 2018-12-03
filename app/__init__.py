@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from config import app_config, Config, DevelopmentConfig
 from urllib.request import urlretrieve
+from app.controller import getStations
 import csv
 
 def create_app(config_name):
@@ -32,7 +33,7 @@ def create_app(config_name):
     # Routes
 	@app.route('/')
 	def index():
-		return render_template('index.html')
+		return render_template('index.html', stations=getStations())
 
 
 	return app

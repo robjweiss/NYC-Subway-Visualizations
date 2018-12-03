@@ -33,6 +33,7 @@ def create_app(config_name):
     # Routes
 	@app.route('/')
 	def index():
+		print(getStations())
 		return render_template('index.html', stations=getStations())
 
 

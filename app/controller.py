@@ -27,10 +27,9 @@ feed = gtfs_realtime_pb2.FeedMessage()
 feed.ParseFromString(response.content)
 subway_feed = protobuf_to_dict(feed) # subway_feed is a dictionary
 realtime_data = subway_feed['entity']
-station = "111"
-dir = "N"
-station2 = "101"
-dir2 = "N"
+NORTH = "N"
+SOUTH = "S"
+
 def getTimes(realtime_data,station,dir):
     arrivalTimes = []
     for choochoo in realtime_data:
@@ -40,42 +39,13 @@ def getTimes(realtime_data,station,dir):
             #This is the format at this point, and all the information we have
             for schedule in trips['stop_time_update']:
                 if schedule.get('stop_id') == (station+dir):
-                    arrivalTimes.append(schedule['arrival']['time'])
+                    if "arrival" in schedule:
+                        arrivalTimes.append(schedule['arrival']['time'])
+                    else:
+                        arrivalTimes.append(schedule['departure']['time'])
                     #arrivalTime = time.strftime('%m/%d/%Y %I:%M%p', time.localtime(arrivalTime))
     return arrivalTimes
 
-with open('app/data/' + posted_id + '.csv', newline='') as csvfile:
-    info = list(csv.reader(csvfile, delimiter=','))
-base,basecoords = None,None
-stops = []
-longlat = []
-for row in info:
-    if row[1] == station:
-        base = row[3]
-        baseCoords = (float(row[8]), float(row[9]))
-for row in info:
-    if row[3] == base:
-        if dir == "S" and baseCoords[0] > float(row[8]):
-            stops.append(row[4])
-        elif dir == "N" and baseCoords[0] < float(row[8]):
-            stops.append(row[4])
-
-    if row[1] == station or row[1] == station2:
-        longlat.append((float(row[8]),float(row[9])))
-
-times1 = getTimes(realtime_data, station,dir)
-times2 = getTimes(realtime_data, station2, dir2)
-setTime = times1[0]
-d = haversine(longlat[0], longlat[1], unit="mi")
-
-for times in times2:
-    t = (times-setTime)/(60**2)
-    if setTime < times and d/t <= 30:
-        print("You will arrive from your " + time.strftime('%m/%d/%Y %I:%M%p', time.localtime(setTime)) + " train at your destination at: " + time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)))
-        break
-print(str(d) + " miles between stops")
-print("This train stops at: ")
-print(stops)
 
 def getStations():
     stationlist = set()
@@ -88,12 +58,9 @@ def getStations():
     stationlist = list(stationlist)
     return(sorted(stationlist))
 
-def returnInfo(realtime_data, station)
+def returnInfo(realtime_data, station):
 	times1 = getTimes(realtime_data, station, NORTH)
 	times2 = getTimes(realtime_data, station, SOUTH)
-	#setTime = times1[0]
-	#d = haversine(longlat[0], longlat[1], unit="mi")
-	#coords = [longlat[0], longlat[1]]
 	
 	n = [time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)) for times in times1]
 	s = [time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)) for times in times2]

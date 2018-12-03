@@ -1,9 +1,9 @@
 from flask import Flask, render_template
 from config import app_config, Config, DevelopmentConfig
 from urllib.request import urlretrieve
-from app.controller import getStations
 import csv
-
+from app.controller import Train
+from app import api_information
 def create_app(config_name):
 	# WSGI application object
 	app = Flask(__name__)
@@ -31,10 +31,18 @@ def create_app(config_name):
 			for val in v:
 				route_writer.writerow(val)
     # Routes
-	@app.route('/')
-	def index():
-		print(getStations())
-		return render_template('index.html', stations=getStations())
+	@app.route('/<line>')
+	def index(line="1"):
+		line = str(line)
+		flag = False
+		for v in api_information.api_ids.values():
+			if line in v:
+				flag = True
+		if not flag:
+			line = "1"
+		train = Train(line)
+		print(train.get_departure_data())
+		return render_template('index.html', stations=train.getStations(), arrivals=train.get_departure_data())
 
 
 	return app

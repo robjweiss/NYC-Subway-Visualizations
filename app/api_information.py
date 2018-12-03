@@ -6,7 +6,7 @@ api_ids[21] = ["B", "D", "F", "M"]
 api_ids[2] = ["L"]
 api_ids[11] = ["SIR"]
 api_ids[31] = ["G"]
-api_ids[26] = ["J", "Z"]
+api_ids[36] = ["J", "Z"]
 api_ids[51] = ["7"]
 
 def find_id(route):

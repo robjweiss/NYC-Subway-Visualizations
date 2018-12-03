@@ -9,8 +9,17 @@ from haversine import haversine
 
 API_KEY = "515fc507675f2491dad273e15c9d742c"
 
-posted_id = "1" #Route
-api_id = str(api_information.find_id(posted_id))
+
+route = "1" #POST THE LINE HERE
+stations = []
+stationNames = {}
+with open('app/data/stations.csv', newline='') as file:
+	reader = csv.reader(file, delimiter=',')
+	for line in reader:
+		if route in line[7].split(" "):
+			stations.append(line[2])
+		stationNames[line[2]] = line[5]
+api_id = str(api_information.find_id(route))
 
 base_url = 'http://datamine.mta.info/mta_esi.php?key=' + API_KEY + '&feed_id=' + api_id
 response = requests.get(base_url)
@@ -69,15 +78,35 @@ print("This train stops at: ")
 print(stops)
 
 def getStations():
-    stations = set()
+    stationlist = set()
     with open('app/data/stations.csv', newline='') as csvfile:
         info = list(csv.reader(csvfile, delimiter=','))
         
     for row in info:
-        stations.add(row[5])
+        stationlist.add(row[5])
 
-    stations = list(stations)
-    return(sorted(stations))
+    stationlist = list(stationlist)
+    return(sorted(stationlist))
 
+def returnInfo(realtime_data, station)
+	times1 = getTimes(realtime_data, station, NORTH)
+	times2 = getTimes(realtime_data, station, SOUTH)
+	#setTime = times1[0]
+	#d = haversine(longlat[0], longlat[1], unit="mi")
+	#coords = [longlat[0], longlat[1]]
+	
+	n = [time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)) for times in times1]
+	s = [time.strftime('%m/%d/%Y %I:%M%p', time.localtime(times)) for times in times2]
+	final = [n, s]
+	return final
+	
+def get_departure_data():
+	ret = {}
+	for station in stations:
+		for k,v in stationNames.items():
+			if k == station:
+				ret[v] = returnInfo(realtime_data,station)
+	return(ret)
+	
 if __name__ == "__main__":
-    print(getStations())
+    print(get_departure_data())

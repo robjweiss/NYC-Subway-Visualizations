@@ -6,7 +6,7 @@ gtfs-realtime-bindings==0.0.5
 haversine==2.0.0
 idna==2.7
 ItsDangerous==1.0.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 protobuf==3.6.1
 protobuf3-to-dict==0.1.5

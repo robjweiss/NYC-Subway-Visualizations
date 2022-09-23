@@ -8,7 +8,7 @@ idna==2.7
 ItsDangerous==1.0.0
 Jinja2==2.10
 MarkupSafe==1.0
-protobuf==3.6.1
+protobuf==3.18.3
 protobuf3-to-dict==0.1.5
 requests==2.20.1
 six==1.11.0
